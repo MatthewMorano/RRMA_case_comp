@@ -1,0 +1,442 @@
+{
+  "settings": {
+    "tickers": [
+      "ZLB.TO",
+      "ZSP.TO",
+      "ZLU.TO",
+      "ZGLD.TO",
+      "ZST.TO",
+      "ZNQ.TO",
+      "ZMMK.TO"
+    ],
+    "end_date": "2026-09-30",
+    "lookback_years": 5,
+    "start_date_override": "2021-12-02",
+    "initial_investment": 10000,
+    "currency": "CAD",
+    "refresh_yahoo_data": false,
+    "use_gld_proxy_for_zgld": true
+  },
+  "data_source": "Yahoo Finance via yfinance",
+  "data_sources": {
+    "ZLB": {
+      "ticker": "ZLB.TO",
+      "source": "Yahoo Finance via yfinance",
+      "yfinance_version": "0.2.55",
+      "downloaded_at_utc": "2026-10-19T02:17:14.411972+00:00",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "first_valid_price_date": "2016-09-30",
+      "last_valid_price_date": "2026-09-30",
+      "missing_adjusted_prices": 0,
+      "has_both_boundary_prices": true,
+      "return_basis": "Yahoo adjusted market prices; not issuer NAV",
+      "validation": "Download checks only; not reconciled to BMO or exchange data.",
+      "auto_adjust": false,
+      "imported_from_snapshot": "C:\\Users\\matth\\Documents\\Codex\\2026-10-17\\i-am-tr\\outputs\\etf_yahoo\\data\\20261019_021712_301165_UTC\\ZLB.TO.csv",
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZLB.TO_2016-09-30_2026-09-30\\20261019_021712_301165_UTC.csv",
+      "read_from_cache": true
+    },
+    "ZSP": {
+      "ticker": "ZSP.TO",
+      "source": "Yahoo Finance via yfinance",
+      "yfinance_version": "0.2.55",
+      "downloaded_at_utc": "2026-10-19T02:17:14.897709+00:00",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "first_valid_price_date": "2016-09-30",
+      "last_valid_price_date": "2026-09-30",
+      "missing_adjusted_prices": 0,
+      "has_both_boundary_prices": true,
+      "return_basis": "Yahoo adjusted market prices; not issuer NAV",
+      "validation": "Download checks only; not reconciled to BMO or exchange data.",
+      "auto_adjust": false,
+      "imported_from_snapshot": "C:\\Users\\matth\\Documents\\Codex\\2026-10-17\\i-am-tr\\outputs\\etf_yahoo\\data\\20261019_021712_301165_UTC\\ZSP.TO.csv",
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZSP.TO_2016-09-30_2026-09-30\\20261019_021712_301165_UTC.csv",
+      "read_from_cache": true
+    },
+    "ZLU": {
+      "ticker": "ZLU.TO",
+      "source": "Yahoo Finance via yfinance",
+      "yfinance_version": "0.2.55",
+      "downloaded_at_utc": "2026-10-19T02:17:15.368179+00:00",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "first_valid_price_date": "2016-09-30",
+      "last_valid_price_date": "2026-09-30",
+      "missing_adjusted_prices": 0,
+      "has_both_boundary_prices": true,
+      "return_basis": "Yahoo adjusted market prices; not issuer NAV",
+      "validation": "Download checks only; not reconciled to BMO or exchange data.",
+      "auto_adjust": false,
+      "imported_from_snapshot": "C:\\Users\\matth\\Documents\\Codex\\2026-10-17\\i-am-tr\\outputs\\etf_yahoo\\data\\20261019_021712_301165_UTC\\ZLU.TO.csv",
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZLU.TO_2016-09-30_2026-09-30\\20261019_021712_301165_UTC.csv",
+      "read_from_cache": true
+    },
+    "ZGLD": {
+      "source": "ZGLD actual plus GLD/USD-CAD historical proxy",
+      "fund_name": "BMO Gold Bullion ETF (CAD Units)",
+      "ticker": "ZGLD.TO",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "downloaded_at_utc": "2026-10-20T03:36:48.311180+00:00",
+      "yfinance_version": "0.2.55",
+      "auto_adjust": false,
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\proxy_histories\\ZGLD_CAD_proxy_b211a5c8d3ee429c.csv",
+      "read_from_cache": true,
+      "history_type": "proxy_extended",
+      "proxy_anchor_date": "2024-03-08",
+      "proxy_price_rows": 567,
+      "proxy_return_end_date": "2024-03-08",
+      "proxy_scale": 0.1165051402761832,
+      "gld_carried_quote_rows": 12,
+      "fx_carried_quote_rows": 0,
+      "proxy_inputs": {
+        "zgld": {
+          "source": "Yahoo Finance via yfinance",
+          "fund_name": "BMO Gold Bullion ETF (CAD Units)",
+          "ticker": "ZGLD.TO",
+          "currency": "CAD",
+          "instrument_type": "ETF",
+          "requested_start": "2016-09-30",
+          "requested_end": "2026-09-30",
+          "downloaded_at_utc": "2026-10-20T03:36:48.311180+00:00",
+          "yfinance_version": "0.2.55",
+          "auto_adjust": false,
+          "unavailable_quote_dates": [],
+          "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZGLD.TO_2016-09-30_2026-09-30\\20261020_033648_316106_UTC.csv",
+          "read_from_cache": true
+        },
+        "gld": {
+          "source": "Yahoo Finance via yfinance",
+          "fund_name": "SPDR Gold Shares",
+          "ticker": "GLD",
+          "currency": "USD",
+          "instrument_type": "ETF",
+          "requested_start": "2016-09-23",
+          "requested_end": "2024-03-08",
+          "downloaded_at_utc": "2026-10-20T03:49:00.108092+00:00",
+          "yfinance_version": "1.7.0",
+          "auto_adjust": false,
+          "unavailable_quote_dates": [],
+          "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\GLD_2016-09-23_2024-03-08\\20261020_034900_111679_UTC.csv",
+          "read_from_cache": true
+        },
+        "fx": {
+          "source": "Yahoo Finance via yfinance",
+          "fund_name": "USD/CAD",
+          "ticker": "CAD=X",
+          "currency": "CAD",
+          "instrument_type": "CURRENCY",
+          "requested_start": "2016-09-23",
+          "requested_end": "2024-03-08",
+          "downloaded_at_utc": "2026-10-20T03:50:48.488777+00:00",
+          "yfinance_version": "1.7.0",
+          "auto_adjust": false,
+          "unavailable_quote_dates": [],
+          "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\CAD=X_2016-09-23_2024-03-08\\20261020_035048_496284_UTC.csv",
+          "read_from_cache": true
+        }
+      },
+      "calendar_ticker": "ZLB.TO",
+      "alignment_policy": "previous available GLD and FX quotes, maximum age 4 calendar days; quote dates retained; actual ZGLD prices are never filled",
+      "limitations": "synthetic history, not ZGLD's actual pre-launch performance; GLD's fees and tracking are retained; daily FX/ETF closes differ in timing"
+    },
+    "ZST": {
+      "source": "Yahoo Finance via yfinance",
+      "fund_name": "BMO Ultra Short-Term Bond ETF",
+      "ticker": "ZST.TO",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "downloaded_at_utc": "2026-10-20T03:36:48.740046+00:00",
+      "yfinance_version": "0.2.55",
+      "auto_adjust": false,
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZST.TO_2016-09-30_2026-09-30\\20261020_033648_741646_UTC.csv",
+      "read_from_cache": true
+    },
+    "ZNQ": {
+      "source": "Yahoo Finance via yfinance",
+      "fund_name": "BMO NASDAQ 100 Equity Index ETF",
+      "ticker": "ZNQ.TO",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "downloaded_at_utc": "2026-10-20T03:36:49.172849+00:00",
+      "yfinance_version": "0.2.55",
+      "auto_adjust": false,
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZNQ.TO_2016-09-30_2026-09-30\\20261020_033649_176504_UTC.csv",
+      "read_from_cache": true
+    },
+    "ZMMK": {
+      "source": "Yahoo Finance via yfinance",
+      "fund_name": "BMO Mutual Funds - BMO Money Market Fund",
+      "ticker": "ZMMK.TO",
+      "currency": "CAD",
+      "instrument_type": "ETF",
+      "requested_start": "2016-09-30",
+      "requested_end": "2026-09-30",
+      "downloaded_at_utc": "2026-10-20T03:36:49.524299+00:00",
+      "yfinance_version": "0.2.55",
+      "auto_adjust": false,
+      "unavailable_quote_dates": [],
+      "cache_file": "C:\\Users\\matth\\Desktop\\etf_starter\\data\\yahoo\\ZMMK.TO_2016-09-30_2026-09-30\\20261020_033649_526377_UTC.csv",
+      "read_from_cache": true
+    }
+  },
+  "price_basis": "Yahoo adjusted market prices, not issuer NAV",
+  "available_dates_mean": "observations in the requested download window",
+  "boundary_policy": "both requested dates must have observed prices",
+  "calendar_reference_ticker_used": "ZLB",
+  "return_currency": "CAD",
+  "return_units": "decimal: 0.01 means 1%",
+  "daily_return_interval": "identical starting and ending price dates across all included ETFs",
+  "shared_return_observations": 1210,
+  "excluded_interval_end_dates": [],
+  "daily_returns_usage": "shared sample for volatility/covariance/correlation only; gaps mean it must not be compounded into full-period growth or used as a complete backtest",
+  "growth_convention": "full observed return history per ETF, including returns spanning a missing observation; no prices are filled or invented",
+  "drawdown_convention": "adjusted-price wealth path; gaps may hide larger drawdowns",
+  "distribution_treatment": "Yahoo adjustments already reflected in adjusted_close; dividends and capital gains are not added again; excludes client taxes and costs",
+  "volatility_convention": "sample standard deviation on shared matched intervals multiplied by sqrt(252); adding ETFs can change this shared sample",
+  "status_ok_means": "calculation checks passed, not investment suitability or provider validation; calendar gaps remain flagged",
+  "optimizer": {
+    "status": "ok",
+    "annual_risk_free_rate": 0.0384,
+    "daily_risk_free_rate": 0.00014953922339766557,
+    "max_etf_weight": 1.0,
+    "max_drawdown_limit": 0.15,
+    "max_annual_volatility": null,
+    "fixed_weights": {
+      "ZMMK": 0.026923076923076925
+    },
+    "lowest_drawdown_found": 0.004078655773755879,
+    "diagnostic_weights_not_a_recommendation": {
+      "ZLB": 3.7527312772186524e-19,
+      "ZSP": 4.4750962964660655e-17,
+      "ZLU": 0.0001802396255996594,
+      "ZGLD": 1.3630328726403013e-07,
+      "ZST": 0.9728965471480361,
+      "ZNQ": 4.604383563703631e-17,
+      "ZMMK": 0.026923076923076925
+    },
+    "feasibility_attempts": [
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      }
+    ],
+    "joint_risk_feasibility_attempts": [
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      }
+    ],
+    "sharpe_attempts": [
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      },
+      {
+        "success": true,
+        "valid_weights": true,
+        "message": "Optimization terminated successfully"
+      }
+    ],
+    "solver_limit": "numerical searches, not proof of global optimality or infeasibility",
+    "calculated_at_utc": "2026-10-20T04:31:54.827614+00:00",
+    "sample_observations": 1210,
+    "actual_start": "2021-12-02",
+    "actual_end": "2026-09-30",
+    "target_lookback_years": 5,
+    "start_date_override": "2021-12-02",
+    "period_choice": "User approved actual ZMMK history; slightly under five years.",
+    "client_portfolio_value": 6500000,
+    "zmmk_reserve_amount": 175000,
+    "remaining_capital": 6325000,
+    "reserve_model": "ZMMK has a fixed starting dollar allocation and constant portfolio weight; daily rebalancing means its dollar value subsequently changes with wealth",
+    "included_tickers": [
+      "ZLB",
+      "ZSP",
+      "ZLU",
+      "ZGLD",
+      "ZST",
+      "ZNQ",
+      "ZMMK"
+    ],
+    "excluded_tickers": [],
+    "sharpe_formula": "sqrt(252) * mean(daily excess return) / std(ddof=1)",
+    "return_model": "constant weights, rebalanced daily, before taxes and costs",
+    "evaluation": "optimized and evaluated on the same historical sample",
+    "drawdown_scope": "historical observed daily closes; no future guarantee",
+    "remaining_client_constraints": "tax and income requirements; liquidity weight fixed"
+  }
+}

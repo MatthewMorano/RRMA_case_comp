@@ -1,0 +1,209 @@
+{
+  "status": "ok",
+  "annual_risk_free_rate": 0.0507,
+  "daily_risk_free_rate": 0.0001962756433240287,
+  "max_etf_weight": 1.0,
+  "max_drawdown_limit": 0.15,
+  "max_annual_volatility": 0.075,
+  "fixed_weights": {
+    "ZMMK": 0.026923076923076925
+  },
+  "lowest_drawdown_found": 0.004078655773755879,
+  "diagnostic_weights_not_a_recommendation": {
+    "ZLB": 3.7527312772186524e-19,
+    "ZSP": 4.4750962964660655e-17,
+    "ZLU": 0.0001802396255996594,
+    "ZGLD": 1.3630328726403013e-07,
+    "ZST": 0.9728965471480361,
+    "ZNQ": 4.604383563703631e-17,
+    "ZMMK": 0.026923076923076925
+  },
+  "feasibility_attempts": [
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "joint_risk_feasibility_attempts": [
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "sharpe_attempts": [
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "solver_limit": "numerical searches, not proof of global optimality or infeasibility",
+  "calculated_at_utc": "2026-10-20T04:24:18.871292+00:00",
+  "sample_observations": 1210,
+  "actual_start": "2021-12-02",
+  "actual_end": "2026-09-30",
+  "target_lookback_years": 5,
+  "start_date_override": "2021-12-02",
+  "period_choice": "User approved actual ZMMK history; slightly under five years.",
+  "client_portfolio_value": 6500000,
+  "zmmk_reserve_amount": 175000,
+  "remaining_capital": 6325000,
+  "reserve_model": "ZMMK has a fixed starting dollar allocation and constant portfolio weight; daily rebalancing means its dollar value subsequently changes with wealth",
+  "included_tickers": [
+    "ZLB",
+    "ZSP",
+    "ZLU",
+    "ZGLD",
+    "ZST",
+    "ZNQ",
+    "ZMMK"
+  ],
+  "excluded_tickers": [],
+  "sharpe_formula": "sqrt(252) * mean(daily excess return) / std(ddof=1)",
+  "return_model": "constant weights, rebalanced daily, before taxes and costs",
+  "evaluation": "optimized and evaluated on the same historical sample",
+  "drawdown_scope": "historical observed daily closes; no future guarantee",
+  "remaining_client_constraints": "tax and income requirements; liquidity weight fixed"
+}

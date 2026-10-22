@@ -1,0 +1,18 @@
+{
+  "ticker": "ZLU.TO",
+  "source": "Yahoo Finance via yfinance",
+  "yfinance_version": "0.2.55",
+  "downloaded_at_utc": "2026-10-19T02:17:15.368179+00:00",
+  "currency": "CAD",
+  "instrument_type": "ETF",
+  "requested_start": "2016-09-30",
+  "requested_end": "2026-09-30",
+  "first_valid_price_date": "2016-09-30",
+  "last_valid_price_date": "2026-09-30",
+  "missing_adjusted_prices": 0,
+  "has_both_boundary_prices": true,
+  "return_basis": "Yahoo adjusted market prices; not issuer NAV",
+  "validation": "Download checks only; not reconciled to BMO or exchange data.",
+  "auto_adjust": false,
+  "imported_from_snapshot": "C:\\Users\\matth\\Documents\\Codex\\2026-10-17\\i-am-tr\\outputs\\etf_yahoo\\data\\20261019_021712_301165_UTC\\ZLU.TO.csv"
+}

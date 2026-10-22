@@ -1,0 +1,40 @@
+{
+  "analysis": {
+    "end_date": "2026-09-30",
+    "lookback_years": 10,
+    "initial_investment": 10000,
+    "comparison_currency": "CAD",
+    "asset_class_filter": "Equity",
+    "calendar_reference_ticker": "ZLB",
+    "refresh_yahoo_data": false
+  },
+  "etfs": [
+    {
+      "ticker": "ZLB",
+      "fund_name": "BMO Low Volatility Canadian Equity ETF",
+      "yahoo_ticker": "ZLB.TO",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "Yahoo adjusted market prices; not yet independently validated. Earlier BMO NAV validation does not apply."
+    },
+    {
+      "ticker": "ZSP",
+      "fund_name": "BMO S&P 500 Index ETF",
+      "yahoo_ticker": "ZSP.TO",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "Yahoo adjusted market prices; not yet independently validated. Earlier BMO NAV validation does not apply."
+    },
+    {
+      "ticker": "ZLU",
+      "fund_name": "BMO Low Volatility US Equity ETF",
+      "yahoo_ticker": "ZLU.TO",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "Yahoo adjusted market prices; not yet independently validated. Earlier BMO NAV validation does not apply."
+    }
+  ]
+}

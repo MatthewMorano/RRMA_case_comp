@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "end_date": "2026-09-30",
+    "lookback_years": 10,
+    "initial_investment": 10000,
+    "comparison_currency": "CAD",
+    "asset_class_filter": "Equity",
+    "calendar_reference_ticker": "ZLB"
+  },
+  "calendar_reference_ticker_used": "ZLB",
+  "return_currency": "CAD",
+  "return_units": "decimal: 0.01 means 1%",
+  "daily_return_interval": "identical starting and ending NAV dates across all included ETFs",
+  "shared_return_observations": 2503,
+  "excluded_interval_end_dates": [
+    "2021-12-15",
+    "2021-12-16"
+  ],
+  "daily_returns_usage": "shared sample for volatility/covariance/correlation only; gaps mean it must not be compounded into full-period growth or used as a complete backtest",
+  "growth_convention": "full observed return history per ETF, including returns spanning a missing observation; no NAV or omitted cash event is invented",
+  "drawdown_convention": "observed NAV-based wealth path; missing NAVs may hide larger drawdowns",
+  "cash_source": "NAV-export cash amounts and dates; cash reinvested at ex-date NAV",
+  "volatility_convention": "sample standard deviation on shared matched intervals multiplied by sqrt(252); adding ETFs can change this shared sample",
+  "status_ok_means": "calculation checks passed, not investment suitability or provider validation; calendar gaps remain flagged",
+  "correlation_method": "Pearson correlation of matched daily total returns",
+  "correlation_observations": 2503,
+  "undefined_correlation_tickers": []
+}

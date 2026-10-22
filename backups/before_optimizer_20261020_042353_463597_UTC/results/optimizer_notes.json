@@ -1,0 +1,113 @@
+{
+  "status": "ok",
+  "annual_risk_free_rate": 0.0507,
+  "daily_risk_free_rate": 0.0001962756433240287,
+  "max_etf_weight": 1.0,
+  "max_drawdown_limit": 0.15,
+  "lowest_drawdown_found": 0.010071668774359721,
+  "diagnostic_weights_not_a_recommendation": {
+    "ZLB": 0.0,
+    "ZSP": 7.088445885317948e-17,
+    "ZLU": 4.940169077174905e-18,
+    "ZGLD": 0.03913866513464768,
+    "ZST": 0.9608613348653523
+  },
+  "feasibility_attempts": [
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "sharpe_attempts": [
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    },
+    {
+      "success": true,
+      "valid_weights": true,
+      "message": "Optimization terminated successfully"
+    }
+  ],
+  "solver_limit": "numerical searches, not proof of global optimality or infeasibility",
+  "calculated_at_utc": "2026-10-20T04:01:48.434831+00:00",
+  "sample_observations": 2508,
+  "actual_start": "2016-09-30",
+  "actual_end": "2026-09-30",
+  "included_tickers": [
+    "ZLB",
+    "ZSP",
+    "ZLU",
+    "ZGLD",
+    "ZST"
+  ],
+  "excluded_tickers": [
+    {
+      "ticker": "ZNQ",
+      "status": "insufficient_history",
+      "message": "Missing boundary prices: check fund history or trading dates."
+    },
+    {
+      "ticker": "ZMMK",
+      "status": "insufficient_history",
+      "message": "Missing boundary prices: check fund history or trading dates."
+    }
+  ],
+  "sharpe_formula": "sqrt(252) * mean(daily excess return) / std(ddof=1)",
+  "return_model": "constant weights, rebalanced daily, before taxes and costs",
+  "evaluation": "optimized and evaluated on the same historical sample",
+  "drawdown_scope": "historical observed daily closes; no future guarantee",
+  "remaining_client_constraints": "liquidity, tax and income requirements"
+}

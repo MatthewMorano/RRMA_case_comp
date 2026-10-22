@@ -1,0 +1,12 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "fund_name": "SPDR Gold Shares",
+  "ticker": "GLD",
+  "currency": "USD",
+  "instrument_type": "ETF",
+  "requested_start": "2016-09-23",
+  "requested_end": "2024-03-08",
+  "downloaded_at_utc": "2026-10-20T03:49:00.108092+00:00",
+  "yfinance_version": "1.7.0",
+  "auto_adjust": false
+}

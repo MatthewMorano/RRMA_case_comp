@@ -1,0 +1,4 @@
+portfolio,annualized_mean_return,annualized_volatility,historical_sharpe,maximum_drawdown,meets_drawdown_limit,meets_volatility_limit,meets_all_risk_limits
+optimized,0.1266644492453506,0.07499999900167784,1.0293731754045525,-0.07013072938931442,True,True,True
+reserve_plus_equal_weight,0.13001081281712712,0.08594338669171844,0.9372373349493995,-0.10969842563115417,True,False,False
+lowest_drawdown_found,0.034485815201456764,0.005473967142533099,-2.7357940824738733,-0.004078655773755879,True,True,True

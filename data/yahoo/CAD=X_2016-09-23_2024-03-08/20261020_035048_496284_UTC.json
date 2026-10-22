@@ -1,0 +1,17 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "fund_name": "USD/CAD",
+  "ticker": "CAD=X",
+  "currency": "CAD",
+  "instrument_type": "CURRENCY",
+  "requested_start": "2016-09-23",
+  "requested_end": "2024-03-08",
+  "downloaded_at_utc": "2026-10-20T03:50:48.488777+00:00",
+  "yfinance_version": "1.7.0",
+  "auto_adjust": false,
+  "unavailable_quote_dates": [
+    "2017-07-11",
+    "2017-11-16",
+    "2019-05-22"
+  ]
+}

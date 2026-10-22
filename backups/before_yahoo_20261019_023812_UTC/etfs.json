@@ -1,0 +1,39 @@
+{
+  "analysis": {
+    "end_date": "2026-09-30",
+    "lookback_years": 10,
+    "initial_investment": 10000,
+    "comparison_currency": "CAD",
+    "asset_class_filter": "Equity",
+    "calendar_reference_ticker": "ZLB"
+  },
+  "etfs": [
+    {
+      "ticker": "ZLB",
+      "fund_name": "BMO Low Volatility Canadian Equity ETF",
+      "nav_file": "data/Historical_NAV_Extract_en_CA_ZLB.csv",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "10-year annualized return agrees with BMO's September 30, 2026 factsheet to two decimal places. NAV-export cash dates selected."
+    },
+    {
+      "ticker": "ZSP",
+      "fund_name": "BMO S&P 500 Index ETF",
+      "nav_file": "data/Historical_NAV_Extract_en_CA_ZSP.csv",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "NAV export lacks 2021-12-15 relative to ZLB's calendar. Not yet reconciled to provider."
+    },
+    {
+      "ticker": "ZLU",
+      "fund_name": "BMO Low Volatility US Equity ETF",
+      "nav_file": "data/Historical_NAV_Extract_en_CA_ZLU.csv",
+      "currency": "CAD",
+      "asset_class": "Equity",
+      "enabled": true,
+      "validation_note": "NAV export lacks 2021-12-15 relative to ZLB's calendar. Not yet reconciled to provider."
+    }
+  ]
+}

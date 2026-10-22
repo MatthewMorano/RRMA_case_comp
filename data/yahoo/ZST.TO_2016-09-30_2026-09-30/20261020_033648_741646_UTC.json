@@ -1,0 +1,12 @@
+{
+  "source": "Yahoo Finance via yfinance",
+  "fund_name": "BMO Ultra Short-Term Bond ETF",
+  "ticker": "ZST.TO",
+  "currency": "CAD",
+  "instrument_type": "ETF",
+  "requested_start": "2016-09-30",
+  "requested_end": "2026-09-30",
+  "downloaded_at_utc": "2026-10-20T03:36:48.740046+00:00",
+  "yfinance_version": "0.2.55",
+  "auto_adjust": false
+}
